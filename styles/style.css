@@ -47,6 +47,7 @@
 .section > button {
   height: 60px;
   background-color: #e1e5e8;
+  transition: 0.1s;
 }
 
 .runTimer {
@@ -119,6 +120,12 @@
   justify-content: center;
   background: url(../img/icons/ellipseBtn.png) center no-repeat;
   cursor: pointer;
+  transition: 0.1s;
+}
+
+.btnOn:hover,
+.btnOff:hover {
+  transform: scale(1.1);
 }
 
 .btnOn + .btnOff {
@@ -209,6 +216,10 @@
 .navNav > ul > li {
   margin-left: 65px;
   cursor: pointer;
+}
+
+.navNav > ul > li:hover {
+  transform: scale(1.1);
 }
 
 .navNav > ul > li:first-child {
@@ -841,11 +852,17 @@ tr:first-child td {
   background-color: #f2fafd;
 }
 
-.methodLeftBlock > img {
+.methodLeftBlockImg {
+  border-radius: 50%;
   cursor: pointer;
   position: absolute;
   bottom: 15px;
   right: 15px;
+  transition: 0.1s;
+}
+
+.methodLeftBlockImg:hover {
+  transform: scale(1.1);
 }
 
 .methodButtons {
@@ -969,6 +986,7 @@ button + button {
   background-color: #11a9ec;
   border-radius: 14.5px;
   color: #ffffff;
+  transition: 0.1s;
 }
 .btnCancel {
   width: 95px;
@@ -977,13 +995,13 @@ button + button {
   border-radius: 14.5px;
   color: #11a9ec;
   background-color: white;
+  transition: 0.1s;
 }
 
 .btnSave:hover,
 .btnSaveAs:hover,
 .btnCancel:hover {
-  transform: scale(1.1);
-  transition: 0.1s;
+  box-shadow: 0 0 10px #12a9eb;
 }
 
 .rightSideBot {
