@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "AG_Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AG_Helvetica.ttf");
+}
+
+@font-face {
+  font-family: "AG_HelveticaBold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/AG_HelveticaBold.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/HelveticaNeue.ttf");
+}
